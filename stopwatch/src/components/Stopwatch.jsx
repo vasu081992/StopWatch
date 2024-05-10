@@ -32,7 +32,7 @@ useEffect(()=>{
     if(flag){
         timer = setInterval(()=>{
              settime((prev)=>prev+1)
-         },100)
+         },1000)
          console.log(timer)
      }
 // else{
