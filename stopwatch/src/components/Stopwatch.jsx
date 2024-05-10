@@ -49,8 +49,8 @@ return ()=> {
 
     return (
         <>
-        <h1>StopWatch</h1>
-        <div>Time : {formatTime(time)}</div>
+        <h1>Stopwatch</h1>
+        <div>Time: {formatTime(time)}</div>
         <button onClick={timerOn}>{ flag ? "Stop" : "Start" } </button>
         <button onClick={timerOff}>Reset</button>
        
