@@ -23,7 +23,7 @@ const formatTime = (time)=>{
     let minutes = Math.floor(time/60);
     let remainingSeconds = time%60;
     //let precisedNum = remainingSeconds.toPrecision(2)
-    return `${minutes} : ${remainingSeconds<10? "0":""}${remainingSeconds}`
+    return `${minutes}:${remainingSeconds<10?"0":""}${remainingSeconds}`
 }
 
 useEffect(()=>{
